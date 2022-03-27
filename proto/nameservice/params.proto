@@ -1,0 +1,12 @@
+syntax = "proto3";
+package cosmonaut.nameservice.nameservice;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/cosmonaut/nameservice/x/nameservice/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
